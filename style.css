@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@100;200;300;400;500;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Playfair;
+    background: hwb(0 35% 65%);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 5;
+    right: 5;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .icons a{
+    font-size: 1.5rem;
+    color: #000;
+    margin: .5rem;
+}
+ul{
+	position:absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 5;
+	padding: 20px 0; /* Adding some padding */
+	background: #858181; /* Add a white background color to the top navigation */
+	display: flex; /* flex Set navigation bar horizontally using the  display tag*/
+	border-radius: 10px; /* add the border radius */
+}
+ /* Style the links inside the navigation bar */
+ul li{
+	list-style: none;
+	text-align: center;
+	display: block;
+	border-right: 1px;
+}
+ul li a{
+	text-decoration: none;
+	padding: 0 50px;
+	display: block;
+}
+ul li a .icon{
+    font-size: 3rem;
+    color: #000;
+    margin: .4 rem;
+}
+
+
